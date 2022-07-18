@@ -2,21 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(40, 39, 39);
+    
 }
-
 .main {
     display: flex;
 }
-
 aside {
     background-color: rgb(33, 33, 33);
-    margin: 0px;
     padding: 10px;
-    
     color: white;
     width: 280px;
-    box-sizing: border-box;
-
 }
 
 .logo {
@@ -24,20 +20,16 @@ aside {
     padding: 20px 10px;
     font-family: 'Cabin', sans-serif;
 }
-.theme{
-    
-    background-color: rgb(126, 123, 123);
-    text-align: center;
-    margin-top: 15px;
-    font-size: 15px;
-    width: 150px;
-    height: 25px;
-    border-radius: 7px;
+.iphone{
+    font-size: 30px;
+    padding: 20px 10px;
+    font-family: 'Cabin', sans-serif;
     color: white;
-    cursor: pointer;
-    
+    display: none;
 }
-
+.iphone i{
+    color: rgb(79, 236, 147);
+}
 .home,
 .search,
 .library,
@@ -45,9 +37,7 @@ aside {
 .creatList {
     margin: 20px 20px;
     font-size: 14px;
-
 }
-
 .homex,
 .searchx,
 .likex,
@@ -56,9 +46,7 @@ aside {
     margin-left: 18px;
     color: rgb(212, 208, 208);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
-
 .creatList {
     margin-top: 50px;
 }
@@ -66,45 +54,33 @@ aside {
 .box1 a {
     color: white;
     text-decoration: none;
-
-}
-
-.played {
-    color: rgb(183, 181, 181);
-    text-align: left;
-    
 }
 .recentplay{
     color: rgb(183, 181, 181);
     text-align: left;
-
 }
-
 .homex:hover,
 .searchx:hover,
 .libraryx:hover,
 .creatx:hover,
 .likex:hover {
     color: white;
-
 }
-
 .head {
     background-color: rgb(40, 39, 39);
     padding: 20px;
     width: 100%;
-    height: 464px;
     overflow-y: scroll;
     scroll-behavior: smooth;
-
-
-
+}
+.nav{
+    position: sticky;
+    top: 30px;
 }
 #playbtn{
     width: 30px;
     height: 20px;
 }
-
 .home i,
 .search i,
 .library i,
@@ -121,7 +97,6 @@ aside {
 .like i {
     color: rgb(245, 89, 115);
 }
-
 .install {
 
     margin: 60px 0px 20px 35px;
@@ -130,24 +105,23 @@ aside {
 
 .artistx {
     display: flex;
-    margin-top: 40px;
-
-    justify-content: space-around;
+    margin-top: 20px;
+    overflow-x: scroll;
 }
-
 .arjit,
 .hunny,
+.neha,
 .jubain,
 .mooshe,
 .shreya {
-
     padding: 10px;
     text-align: center;
+    margin-left: 15px;
 }
 
 .artistx img {
-    height: 110px;
-    width: 120px;
+    height: 125px;
+    width: 130px;
     border-radius: 50%;
 }
 .artistx a{
@@ -155,31 +129,35 @@ aside {
     color: white;
     text-align: center;
 }
-
 .arjit:hover,
 .hunny:hover,
+.neha:hover,
 .jubain:hover,
 .mooshe:hover,
 .shreya:hover {
     background-color: rgba(98, 97, 97, 0.326);
     border-radius: 10px;
 }
-
+.trendingx{
+    display: flex;
+    overflow-x: scroll;
+    color: white;
+    margin-top: 20px;
+}
+.trendingx img{
+    height: 135px;
+    width: 150px;
+}
 footer {
     background-color: rgb(27, 26, 26);
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(190, 188, 188);
-    
+    color: rgb(190, 188, 188); 
     position: sticky;
     bottom: 0px;
-
 }
-
-
 .slidebar{
     padding-top: 5px;
 }
@@ -189,10 +167,7 @@ footer {
     position: relative;
     bottom: 5px;
     cursor: pointer;
-    
-
 }
-
 .control i {
     padding: 12px 10px 10px 0px;
     font-size: 20px;
@@ -200,11 +175,9 @@ footer {
     cursor: pointer;
 
 }
-
 ::-webkit-scrollbar {
     display: none;
 }
-
 .recent {
     display: flex;
     overflow-x: scroll;
@@ -257,19 +230,12 @@ footer {
     height: 150px;
     border-radius: 50%;
     box-shadow: 3px 5px 15px rgb(161, 223, 227);
-    
-    
-    
 }
 .title{
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     color: rgb(211, 209, 209);
     text-align: center;
-    padding: 10px 5px 10px 5px;
-    
-    
-    
-    
+    padding: 30px 5px 10px 5px;
 }
 .played{
     width: 800px;
@@ -283,13 +249,11 @@ footer {
     box-sizing: border-box;
     overflow-y: scroll;
     color: black;
-   
+    margin: 0px auto;  
 }
 
 table tr{
-   text-align: left; 
-   
-   
+   text-align: left;   
 }
 .ArjitInfo{
     display: flex;
@@ -297,17 +261,23 @@ table tr{
     width: 100%;
     height: 504px;
     overflow-y: scroll;
-    
-
-
+}
+.tabletitle{
+    background-color: rgba(219, 218, 218, 0.224);
 }
 .popular{
     text-align: left;
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
+}
+.artistlist{
+    font-size: 30px;
+    color: rgb(235, 208, 208);
+    padding-left: 20px;
+    font-family: cursive;
+    margin-top: 20px;
 }
 .arjitsong{
     width: 100%;
@@ -323,13 +293,10 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 .fimg img{
     width: 50px;
     padding-left: 20px;
-    height: 40px;
-    
-    
+    height: 40px;   
 }
 .Asong{
     display: flex;
-    background-color: red;
     align-items: center;
     
 }
@@ -340,7 +307,7 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 .k{
     padding:4px 28px;
     text-align: center;
-    
+    cursor: pointer;   
 }
 .k input{
     text-align: center;
@@ -355,51 +322,71 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
     margin-top: 59px;
 }
 .Aname{
-    height: 50px;
-    width: 440px;
+    
+    width: 70%;
     margin: 0px auto;
     background-color: rgba(20, 19, 19, 0.596);
     color: white;
+    font-size: 15px;
+}
+.row:hover{
+    outline: 1px solid rgb(134, 132, 132);
+    background-color: rgba(153, 149, 149, 0.521);
+    border-radius: 8px;  
+}
+.nehas{
+    display: flex;
+    background-color: rgb(40, 39, 39);
+    padding: 20px;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.infoname{
+    font-weight: bold;
 }
 
-
 @media screen and (max-width:700px) {
-    
-
     .mus1 {
         width: 300px;
         padding: 10px;
     }
-
     .mus1 img {
 
         height: 270px;
         width: 300px;
     }
-
-    
-
     .box1 {
         width: 390px;
     }
 }
-
 @media screen and (max-width:500px) {
-    .recent {
+    .artistx{
+        overflow-x: scroll;
+    }
+    .iphone{
         display: block;
     }
-
-    .mus1 {
-        width: 280px;
-        padding: 10px;
+    aside{
+        display: none;
     }
-
-    .mus1 img {
-
-        height: 270px;
+    .k{
+        padding: 0px;
+    }
+    .trendingx, .artistx{
+        margin-left: -20px;
+    }
+    .nehas{
+        display: block;
+    }
+    .mus1 {
+        width: 250px;
+        padding: 10px;
+        margin-left:-1px;
+    }
+    .mus1 img{
         width: 200px;
     }
-
     .footer{
          background-color: red;
     }

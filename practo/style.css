@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+aside {
+    background-color: rgb(33, 33, 33);
+    margin: 0px;
+    padding: 10px;
+    
+    color: white;
+    width: 280px;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    font-size: 30px;
+    padding: 20px 10px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.home,
+.search,
+.library,
+.like,
+.creatList {
+    margin: 20px 20px;
+    font-size: 14px;
+
+}
+
+.homex,
+.searchx,
+.likex,
+.libraryx,
+.creatx {
+    margin-left: 18px;
+    color: rgb(212, 208, 208);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.creatList {
+    margin-top: 50px;
+}
+
+.box1 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.homex:hover,
+.searchx:hover,
+.libraryx:hover,
+.creatx:hover,
+.likex:hover {
+    color: white;
+
+}
+
+.head {
+    background-color: rgb(40, 39, 39);
+    padding: 20px;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
+
+
+}
+#playbtn{
+    width: 30px;
+    height: 20px;
+}
+
+.home i,
+.search i,
+.library i,
+.like i,
+.creatList i {
+    font-size: 17px;
+    color: rgb(197, 195, 195);
+}
+
+.logo i {
+    color: rgb(79, 236, 147);
+}
+
+.like i {
+    color: rgb(245, 89, 115);
+}
+
+.install {
+
+    margin: 60px 0px 20px 35px;
+    font-size: 18px;
+}
+
+.artistx {
+    display: flex;
+    margin-top: 40px;
+
+    justify-content: space-around;
+}
+
+
+footer {
+    background-color: rgb(27, 26, 26);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(190, 188, 188);
+   
+    
+    
+
+}
+.foot{
+    position: sticky;
+    bottom: 0px;
+}
+
+
+.slidebar{
+    padding-top: 5px;
+}
+.slidebar #slidebar {
+    width: 60vw;
+    height: 2px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    
+
+}
+
+.control i {
+    padding: 12px 10px 10px 0px;
+    font-size: 20px;
+    color: rgb(237, 235, 235);
+    cursor: pointer;
+
+}
+
+
+

@@ -22,7 +22,7 @@
 
             </div>
             <div class="home">
-                <a href=""><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
+                <a href="./index.html"><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
             </div>
             <div class="search">
                 <a href=""><span><i class="fa-solid fa-magnifying-glass"></i><span
@@ -48,19 +48,20 @@
                 <a href=""><span class="installx"><i class="fa-solid fa-circle-arrow-down"></i></span> Install App</a>
             </div>
         </aside>
-        <header class="head" id="headarjit">
+        <header class="nehas">
             <div class="title">
                 <div class="pic">
                     <img src="https://www.oneindia.com/img/2019/05/shreya-ghoshal-1557983852.jpg"
                         alt="">
                 </div>
+                
 
                 <br>
                 <div class="info">
                     <table>
                         <tr>
                             <td >Name </td>
-                            <td >: Shreya Ghoshal</td>
+                            <td class="infoname">: Shreya Ghoshal</td>
                         </tr>
         
                         <tr>
@@ -86,49 +87,50 @@
                 <p class="popular">Popular</p>
                 <table>
                     <tr class="tabletitle">
-                        <th class="fimg">Sr.No</th>
+                        <th class="fimg">Sr</th>
                         <th class="k" colspan="2">Song</th>
                         <th class="k">Release Date</th>
                         <th class="k">Rating</th>
+                        <th>submit</th>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">1</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/GtNrQy90Ih4/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Saibo</td>
+                        <td class="k" onclick="sreyaplay1()" ondblclick="sreyapause1()">Saibo</td>
                         <td class="k">July 15, 2022</td>
                         <form action="">
                         <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                         <td><input type="submit" value="Rate"></td>
                     </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">2</td>
-                        <td class="fimg"><img src="https://i.ytimg.com/vi/GtNrQy90Ih4/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Param Sundari</td>
+                        <td class="fimg"><img src="https://i.ytimg.com/vi/nfNc0XJdZWk/maxresdefault.jpg" alt=""></td>
+                        <td class="k" onclick="sreyaplay2()" ondblclick="sreyaplay2()">Param Sundari</td>
                         <td class="k">Feb 02, 2022</td>
                         <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                         <td><input type="submit" value="Rate"></td>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">3</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/1Daf3HwOHus/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Heer Ranjana</td>
+                        <td class="k" onclick="sreyaplay3()" ondblclick="sreyaplay3()">Heer Ranjana</td>
                         <td class="k">Sept 06, 2019</td>
                         <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                         <td><input type="submit" value="Rate"></td>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">4</td>
                         <td class="fimg"><img src="https://i.scdn.co/image/ab67616d0000b27311f04db5315007b4004c4691" alt=""></td>
-                        <td class="k">Pal</td>
+                        <td class="k" onclick="sreyaplay4()" ondblclick="sreyaplay4()">Pal</td>
                         <td class="k">March 10, 2022</td>
                         <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                         <td><input type="submit" value="Rate"></td>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">5</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/d0x2UbhbdmY/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Hasi</td>
+                        <td class="k" onclick="sreyaplay5()" ondblclick="sreyaplay5()">Hasi</td>
                         <td class="k">Apr 05, 2022</td>
                         <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                         <td><input type="submit" value="Rate"></td>
@@ -150,7 +152,7 @@
         <div class="control">
             <i class="fa-solid fa-shuffle"></i>
             <i class="fa-solid fa-backward-step"></i>
-            <a onclick="playsong8()" ondblclick="pausesong8()"><i class="fa-solid fa-circle-play" id="kick"></i></a>
+            <a ><i class="fa-solid fa-circle-play" id="kick"></i></a>
             <i class="fa-solid fa-forward-step"></i>
             <i class="fa-solid fa-repeat"></i>
         </div>

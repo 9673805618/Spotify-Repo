@@ -22,7 +22,7 @@
 
             </div>
             <div class="home">
-                <a href=""><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
+                <a href="./index.html"><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
             </div>
             <div class="search">
                 <a href=""><span><i class="fa-solid fa-magnifying-glass"></i><span
@@ -48,7 +48,7 @@
                 <a href=""><span class="installx"><i class="fa-solid fa-circle-arrow-down"></i></span> Install App</a>
             </div>
         </aside>
-        <header class="head" id="headarjit">
+        <header class="nehas" >
             <div class="title">
                 <div class="pic">
                     <img src="https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/exclusive_yo_yo_honey_singh_on_battling_depression_alcoholism_shah_rukh_bhai_deepika_stood_by_me_1.jpg"
@@ -60,7 +60,7 @@
                     <table>
                         <tr>
                             <td >Name </td>
-                            <td >: Honey Singh</td>
+                            <td class="infoname">: Honey Singh</td>
                         </tr>
         
                         <tr>
@@ -79,52 +79,68 @@
 
             </div>
             <div class="arjitsong">
-                <div class="Aname"><h1 >Yo Yo Honey Singh</h1></div>
+                <div class="Aname"><h1 >Honey Singh</h1></div>
                 
                 
 
                 <p class="popular">Popular</p>
                 <table>
                     <tr class="tabletitle">
-                        <th class="fimg">Sr.No</th>
+                        <th class="fimg">Sr</th>
                         <th class="k" colspan="2">Song</th>
                         <th class="k">Release Date</th>
                         <th class="k">Rating</th>
+                        <th>submit</th>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">1</td>
                         <td class="fimg"><img src="https://newstatusline.com/wp-content/uploads/de-taali-status.jpg" alt=""></td>
-                        <td class="k">De Tali Bhool Bhulaiya 2</td>
+                        <td class="k" onclick="hunyplay1()" ondblclick="hunypause1()">De Tali </td>
                         <td class="k">June 5, 2022</td>
-                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <form action="">
+                            <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                            <td><input type="submit" value="Rate"></td>
+                        </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">2</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/TvngY4unjn4/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Love Dose</td>
+                        <td class="k" onclick="hunyplay2()" ondblclick="hunypause2()">Love Dose</td>
                         <td class="k">may 8, 2022</td>
-                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <form action="">
+                            <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                            <td><input type="submit" value="Rate"></td>
+                        </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">3</td>
-                        <td class="fimg"><img src="http://1.bp.blogspot.com/-lbsie3_61q4/UoZIcYox-GI/AAAAAAAAA7k/Km9ox10klSA/s1600/honeysingh_blueeyes.jpg" alt=""></td>
-                        <td class="k">Blue Eyes</td>
+                        <td class="fimg"><img src="https://i0.wp.com/www.allindiandjsdrive.com/wp-content/uploads/2021/05/Saiyaan-Ji-Remix-Debjit-Music.jpg" alt=""></td>
+                        <td class="k" onclick="hunyplay3()" ondblclick="hunypause3()">Naughty Saiya ji</td>
                         <td class="k">Nov 06, 2019</td>
-                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <form action="">
+                            <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                            <td><input type="submit" value="Rate"></td>
+                        </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">4</td>
                         <td class="fimg"><img src="https://images.genius.com/4c3a54331de5d1c051915adb662a60e7.600x600x1.jpg" alt=""></td>
-                        <td class="k">Desi Kalakar</td>
+                        <td class="k" onclick="hunyplay4()" ondblclick="hunypause4()">Desi Kalakar</td>
                         <td class="k">Dec 30, 2022</td>
-                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <form action="">
+                            <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                            <td><input type="submit" value="Rate"></td>
+                        </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">5</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/xZQ_Qw2IJOQ/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Designer</td>
+                        <td class="k" onclick="hunyplay5()" ondblclick="hunypause5()">Designer</td>
                         <td class="k">Apr 15, 2022</td>
-                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <form action="">
+                            <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                            <td><input type="submit" value="Rate"></td>
+                        </form>
                     </tr>
                     
                 </table>
@@ -143,7 +159,7 @@
         <div class="control">
             <i class="fa-solid fa-shuffle"></i>
             <i class="fa-solid fa-backward-step"></i>
-            <a onclick="playsong8()" ondblclick="pausesong8()"><i class="fa-solid fa-circle-play" id="kick"></i></a>
+            <a ><i class="fa-solid fa-circle-play" id="kick"></i></a>
             <i class="fa-solid fa-forward-step"></i>
             <i class="fa-solid fa-repeat"></i>
         </div>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <aside class="box1" id="box">
+            <div class="logo">
+                <span class="logox"><i class="fa-brands fa-spotify"></i> Spotify</span>
+
+            </div>
+            <div class="home">
+                <a href="./index.html"><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
+            </div>
+            <div class="search">
+                <a href=""><span><i class="fa-solid fa-magnifying-glass"></i><span
+                            class="searchx">Search</span></span></a>
+            </div>
+            <div class="library">
+                <a href=""><span><i class="fa-solid fa-book"></i></i><span class="libraryx">Your
+                            Library</span></span></a>
+            </div>
+            <div class="creatList">
+                <a href=""><span><i class="fa-solid fa-square-plus"></i></i><span class="creatx">Create
+                            Playlist</span></span></a>
+            </div>
+            <div class="like">
+                <a href="#"><span><i class="fa-brands fa-gratipay"></i><span class="likex">Liked Songs</span></span></a>
+            </div>
+            <hr>
+            <a href="" id="playlist">My Playlist #1</a>
+            <div id="themex" class="theme">
+                <pre>change theme</pre>
+            </div>
+            <div class="install">
+                <a href=""><span class="installx"><i class="fa-solid fa-circle-arrow-down"></i></span> Install App</a>
+            </div>
+        </aside>
+        <header class="nehas">
+            <div class="title">
+                <div class="pic">
+                    <img src="https://wikibio.in/wp-content/uploads/2017/11/Neha-Kakkar-4.jpg"
+                        alt="">
+                </div>
+
+                <br>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td >Name </td>
+                            <td class="infoname">: Neha Kakkar</td>
+                        </tr>
+        
+                        <tr>
+                            <td >DOB </td>
+                            <td >: 6 June 1988</td>
+                            
+                        </tr>
+            
+                        <tr>
+                            <td class="bio">bio</td>
+                            <td > : Neha Kakkar Singh is an Indian playback singer.She is the younger sister of playback singer Sonu Kakkar. She began performing at a very early age at religious events. In 2005, she participated in the second season of the singing reality show, Indian Idol. She made her Bollywood debut as a chorus singer in the film Meerabai Not Out. She rose to prominence with the release of the dance track "Second Hand Jawaani" from Cocktail, which was followed by several popular party songs including "Sunny Sunny" from Yaariyan and "London Thumakda" from Queen. Apart from playback singing, Kakkar has appeared in several music videos and as a judge on several television reality shows including "Indian Idol".</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+
+            </div>
+            <div class="arjitsong" >
+                <div class="Aname"><h1 >Neha Kakkar</h1></div>
+                
+                
+
+                <p class="popular">Popular</p>
+                <table>
+                    <tr class="tabletitle">
+                        <th class="fimg">Sr.</th>
+                        <th class="k" colspan="2">Song</th>
+                        <th class="k">Release Date</th>
+                        <th class="k">Rating</th>
+                        <th>submit</th>
+                    </tr>
+                   
+                    <tr class="row">
+                        <td class="fimg">1</td>
+                        <td class="fimg"><img src="https://i.ytimg.com/vi/lX3vT_Gm_HE/maxresdefault.jpg" alt=""></td>
+                        <td class="k" onclick="nehaplay1()" ondblclick="nehapause1()">Dil ko Karar aya</td>
+                        <td class="k">July 15,2022</td>
+                        <form action="">
+                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <td><input type="submit" value="Rate"></td>
+                    </form>
+                    </tr>
+                    <tr class="row">
+                        <td class="fimg">2</td>
+                        <td class="fimg"><img src="https://i.ytimg.com/vi/xLUCo7lhnxE/maxresdefault.jpg" alt=""></td>
+                        <td class="k" onclick="nehaplay2()" ondblclick="nehapause2()">Tu hi yaar mera</td>
+                        <td class="k">Feb 02,2022</td>
+                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <td><input type="submit" value="Rate"></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="fimg">3</td>
+                        <td class="fimg"><img src="https://a10.gaanacdn.com/images/albums/50/2411050/crop_480x480_1550147133_2411050.jpg" alt=""></td>
+                        <td class="k" onclick="nehaplay3()" ondblclick="nehapause3()">Valentine Mashup</td>
+                        <td class="k">Sept 06,2019</td>
+                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <td><input type="submit" value="Rate"></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="fimg">4</td>
+                        <td class="fimg"><img src="https://i.ytimg.com/vi/q_0uF80IZXM/maxresdefault.jpg" alt=""></td>
+                        <td class="k" onclick="nehaplay4()" ondblclick="nehapause4()">Garmi</td>
+                        <td class="k">March 10,2022</td>
+                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <td><input type="submit" value="Rate"></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="fimg">5</td>
+                        <td class="fimg"><img src="https://a10.gaanacdn.com/images/albums/96/3417596/crop_480x480_3417596.jpg" alt=""></td>
+                        <td class="k" onclick="nehaplay5()" ondblclick="nehapause5()">Taron he shahar</td>
+                        <td class="k">Apr 05,2022</td>
+                        <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
+                        <td><input type="submit" value="Rate"></td>
+                    </tr>
+                    
+                </table>
+                
+
+            </div>
+
+
+
+        </header>
+
+    </div>
+    <footer id="foot">
+        <div class="slidebar"><span>03:54 </span><input type="range" name="" id="slidebar" min="0" max="100"><span>
+                05:14</span></div>
+        <div class="control">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <a><i class="fa-solid fa-circle-play" id="kick"></i></a>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

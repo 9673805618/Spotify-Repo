@@ -22,7 +22,7 @@
 
             </div>
             <div class="home">
-                <a href=""><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
+                <a href="./index.html"><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
             </div>
             <div class="search">
                 <a href=""><span><i class="fa-solid fa-magnifying-glass"></i><span
@@ -48,7 +48,7 @@
                 <a href=""><span class="installx"><i class="fa-solid fa-circle-arrow-down"></i></span> Install App</a>
             </div>
         </aside>
-        <header class="head" id="headarjit">
+        <header class="nehas" >
             <div class="title">
                 <div class="pic">
                     <img src="https://i.scdn.co/image/ab6761610000e5eb1a9d9cfc59b01338c0786953"
@@ -60,7 +60,7 @@
                     <table>
                         <tr>
                             <td >Name </td>
-                            <td >: Jubain Notiyal</td>
+                            <td class="infoname">: Jubain Notiyal</td>
                         </tr>
         
                         <tr>
@@ -86,55 +86,56 @@
                 <p class="popular">Popular</p>
                 <table>
                     <tr class="tabletitle">
-                        <th class="fimg">Sr.No</th>
+                        <th class="fimg">Sr</th>
                         <th class="k" colspan="2">Song</th>
                         <th class="k">Release Date</th>
                         <th class="k">Rating</th>
+                        <th>submit</th>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">1</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/gvyUuxdRdR4/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Raataan Lambiyan</td>
+                        <td class="k" onclick="jubainplay1()" ondblclick="jubainpause1()">Raaton Lambiyan</td>
                         <td class="k">Nov 19, 2021</td>
                         <form action="">
                             <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                             <td><input type="submit" value="Rate"></td>
                         </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">2</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/1--qqQrimMA/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Dil galati kar baitha</td>
+                        <td class="k" onclick="jubainplay2()" ondblclick="jubainpause2()">Dil Galati Kar Baitha</td>
                         <td class="k">Apr 02, 2022</td>
                         <form action="">
                             <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                             <td><input type="submit" value="Rate"></td>
                         </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">3</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/TmRgK-pXH9c/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Humnava Mere</td>
+                        <td class="k" onclick="jubainplay3()" ondblclick="jubainpause3()">Humnava Mere</td>
                         <td class="k">Sept 06, 2019</td>
                         <form action="">
                             <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                             <td><input type="submit" value="Rate"></td>
                         </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">4</td>
                         <td class="fimg"><img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Tum_Hi_Aana.jpg" alt=""></td>
-                        <td class="k">Tu Hi Aana </td>
+                        <td class="k" onclick="jubainplay4()" ondblclick="jubainpause4()">Tu Hi Aana </td>
                         <td class="k">Nov 10, 2022</td>
                         <form action="">
                             <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
                             <td><input type="submit" value="Rate"></td>
                         </form>
                     </tr>
-                    <tr>
+                    <tr class="row">
                         <td class="fimg">5</td>
                         <td class="fimg"><img src="https://i.ytimg.com/vi/uPXBQ1L8Ebw/maxresdefault.jpg" alt=""></td>
-                        <td class="k">Meri Zindagi</td>
+                        <td class="k" onclick="jubainplay5()" ondblclick="jubainpause5()">Meri Zindagi</td>
                         <td class="k">Apr 05, 2022</td>
                         <form action="">
                             <td class="k"><input type="number" name="" id="" min="1" max="5"></td>
@@ -158,7 +159,7 @@
         <div class="control">
             <i class="fa-solid fa-shuffle"></i>
             <i class="fa-solid fa-backward-step"></i>
-            <a onclick="playsong8()" ondblclick="pausesong8()"><i class="fa-solid fa-circle-play" id="kick"></i></a>
+            <a ><i class="fa-solid fa-circle-play" id="kick"></i></a>
             <i class="fa-solid fa-forward-step"></i>
             <i class="fa-solid fa-repeat"></i>
         </div>
