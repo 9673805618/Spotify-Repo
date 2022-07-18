@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <aside class="box1" id="box">
+            <div class="logo">
+                <span class="logox"><i class="fa-brands fa-spotify"></i> Spotify</span>
+
+            </div>
+            <div class="home">
+                <a href=""><span><i class="fa-solid fa-house"></i><span class="homex">Home</span></span></a>
+            </div>
+            <div class="search">
+                <a href=""><span><i class="fa-solid fa-magnifying-glass"></i><span
+                            class="searchx">Search</span></span></a>
+            </div>
+            <div class="library">
+                <a href=""><span><i class="fa-solid fa-book"></i></i><span class="libraryx">Your
+                            Library</span></span></a>
+            </div>
+            <div class="creatList">
+                <a href=""><span><i class="fa-solid fa-square-plus"></i></i><span class="creatx">Create
+                            Playlist</span></span></a>
+            </div>
+            <div class="like">
+                <a href="#"><span><i class="fa-brands fa-gratipay"></i><span class="likex">Liked Songs</span></span></a>
+            </div>
+            <hr>
+            <a href="" id="playlist">My Playlist #1</a>
+            <div id="themex" class="theme" >
+                <pre>change theme</pre>
+            </div>
+            <div class="install">
+                <a href=""><span class="installx"><i class="fa-solid fa-circle-arrow-down"></i></span> Install App</a>
+            </div>
+        </aside>
+        <header class="head" id="headx">
+
+
+            <div class="recentplay"><h1>Recently Played</h1></div>
+            <div class="recent">
+
+
+                <div class="mus1">
+                    <a onclick="playsong()" ondblclick="pausesong()">
+                        <img src="https://pagalworld4u.in/wp-content/uploads/2022/04/Raja-Aala-Mp3-Song-Download-Avadhoot-Gupte.jpg">
+                        <i class="fa-solid fa-circle-play" id="music"></i>
+                        <div class="name">Bollywood Hit list remix 2022</div>
+                    </a>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong2()" ondblclick="pausesong2()"><img
+                            src="https://www.behindwoods.com/hindi-movies/ae-dil-hai-mushkil/images/thumbnails/ae-dil-hai-mushkil-songs-review.jpg">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <div class="name">Aye Dil Hai Mushkil Ranvir kappor and aishwarya rai</div>
+                    </a>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong3()" ondblclick="pausesong3()">
+                        <img src="https://c.saavncdn.com/633/Har-Har-Shambhu-Shiv-Mahadeva-Hindi-2022-20220502205548-500x500.jpg"
+                            alt="">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <div><a href="" class="name">Har har Shambhu song</a></div>
+                    </a>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong4()" ondblclick="pausesong4()"><img src="https://i.ytimg.com/vi/RPFkaHG2ONA/maxresdefault.jpg" alt=""></a>
+                    <i class="fa-solid fa-circle-play"></i>
+                    <div><a href="" class="name">Meri Jaan song -Gangu Movie.. alia bhat</a></div>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong5()" ondblclick="pausesong5()">
+                    <img src="https://i0.wp.com/chitrambhalare.in/wp-content/uploads/2021/11/RRR-second-single-naatu-naatu-HD-Poster-scaled.jpg?resize=696%2C1236&ssl=1"
+                        alt="">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <div class="name">Natu Natu song:RRR song NTR and Ram charan</div>
+                </a>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong6()" ondblclick="pausesong6()">
+                    <img src="https://sensongsmp3.tv/wp-content/uploads/2021/12/pushpa-songs-download-2021-Allu-Arjun-Rashmika-Mandanna-Samantha-Jagapati-Babu-Fahadh-Faasil-Sunil-Prakash-Raj.jpg"
+                        alt="">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <div class="name">sami sami song :pushpa ..Allu Arjun and Ramshmika Mandhana</div>
+                </a>
+                </div>
+                <div class="mus1">
+                    <a onclick="playsong7()" ondblclick="pausesong7()">
+                    <img src="https://paglaworlds.com/music/thumbs/cover/365_thumb.jpg" alt="">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <div class="name">Little Little :Atrangi re</div>
+                </a>
+                </div>
+            </div>
+
+            <div class="artistx">
+
+
+                <div class="arjit">
+                    <a href="./arjit.html"><img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/04/pjimage-1524659025.jpg"
+                        alt="">
+                    <div class="name">Arjit Sign</div>
+                </a>
+
+                </div>
+                <div class="hunny">
+                    <a href="./Honey.html">
+                        <img src="https://i.pinimg.com/originals/df/b0/3d/dfb03d741e4bc4a597c73a08d1f6513c.jpg"
+                            alt="">
+                        <div class="name">Honey Sign</div>
+                    </a>
+                </div>
+                <div class="jubain">
+                    <a href="./jubain.html"><img
+                            src="https://dev-resws-hungamatech-com.storage.googleapis.com/featured_content/2ca773c4e4ae17e3bc5c4bad9c57d867_500x500.jpg"
+                            alt="">
+                        <div class="name">Jubain notiyal</div>
+                    </a>
+                </div>
+                <div class="mooshe">
+                    <a href="./Sidhu.html"><img src="https://photosfile.com/wp-content/uploads/2022/02/Sidhu-Moose-Wala-3.jpeg"
+                            alt="">
+                        <div class="name">Sidhu Mooshe Wala</div>
+                    </a>
+                </div>
+                <div class="shreya">
+                    <a href="./shreya.html"><img src="https://www.thestatesman.com/wp-content/uploads/2018/03/19985032_1628342673842740_6221667355580170240_n.jpg" alt="">
+                        <div class="name">Shreya Ghoshal</div>
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+    </div>
+    <footer id="foot">
+        <div class="slidebar"><span>03:54 </span><input type="range" name="" id="slidebar" min="0" max="100"><span>
+                05:14</span></div>
+        <div class="control">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <a onclick="playsong8()" ondblclick="pausesong8()"><i class="fa-solid fa-circle-play" id="kick"></i></a>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
